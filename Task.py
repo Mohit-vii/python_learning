@@ -216,7 +216,7 @@ class ElectricCar(Car):
         self.battery_size = battery_size
     
     def fuel_type(self):
-        return "Electric charge"
+        return "Electric charged"
 
 my_car = ElectricCar("Tesla", "model x", "90 kWh")
 print(my_car.fuel_type())
